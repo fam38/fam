@@ -44,7 +44,7 @@
         android:layout_marginTop="21dp"
         android:ems="10"
         android:text="@string/tUrsN"
-        android: />
+        android:inputType="text"/>
    
 
     <EditText
@@ -55,7 +55,8 @@
         android:layout_below="@+id/tTel"
         android:layout_marginTop="19dp"
         android:ems="10"
-        android:text="@string/tMail" />
+        android:text="@string/tMail" 
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/tTel"
@@ -64,7 +65,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10"
-        android:text="@string/tTel" />
+        android:text="@string/tTel" 
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/tCp"
@@ -74,6 +76,7 @@
         android:layout_below="@+id/tMail"
         android:layout_marginTop="26dp"
         android:ems="10"
-        android:text="@string/tCp" />
+        android:text="@string/tCp"
+        android:inputType="text" />
 
 </RelativeLayout>
