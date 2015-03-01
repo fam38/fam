@@ -1,25 +1,24 @@
 package ressources;
 
-import java.util.Date;
 
 public class Compte {
 	private String username;
 	private String password;
-	private Date dna; //date naissance
+	private String dna; //date naissance
 	private String mail;
 	private String tel;
 	private String codePostal;
 	private Profil profil;
 	
 	//constructeur
-	public Compte(String uN, String pW, String m, Date d, String t, String cP,Profil p){
+	public Compte(String uN, String pW, String m, String d, String t, String cP){
 		username = uN;
 		password = pW;
 		dna = d;
 		mail = m;
 		tel = t;
 		codePostal = cP;
-		profil = p;
+		profil = null;;
 		
 	}
 	
@@ -37,10 +36,10 @@ public class Compte {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Date getDna() {
+	public String getDna() {
 		return dna;
 	}
-	public void setDna(Date dna) {
+	public void setDna(String dna) {
 		this.dna = dna;
 	}
 	public String getMail() {

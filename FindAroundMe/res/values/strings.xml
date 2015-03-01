@@ -4,12 +4,12 @@
     <string name="app_name">FindAroundMe</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="username">tUsrN</string>
-    <string name="tUrsN">username</string>
-    <string name="password">tPsw</string>
+    <string name="tUrsN">Username</string>
+    <string name="tPsw">Password</string>
     <string name="tDn">Date Naissance</string>
-    <string name="tTel">telephone</string>
+    <string name="tTel">Telephone</string>
     <string name="tMail">Mail</string>
     <string name="tCp">Code postal</string>
+    <string name="btInscrit">Inscription</string>
 
 </resources>
