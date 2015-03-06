@@ -11,5 +11,7 @@
     <string name="tMail">Mail</string>
     <string name="tCp">Code postal</string>
     <string name="btInscrit">Inscription</string>
+    <string name="title_activity_gps">Gps</string>
+    <string name="btLocaliser">Localiser</string>
 
 </resources>
